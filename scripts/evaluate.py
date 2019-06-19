@@ -68,7 +68,7 @@ if not (args.output is None):
         
 if deploy_model == False:
     print('Model metric did not meet the metric threshold criteria and will not be deployed!')
-    print('Existing')
+    print('Exiting')
     sys.exit(0)
 
 # Continue to package Model and create image
